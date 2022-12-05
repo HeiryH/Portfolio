@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body{
+    @apply bg-[#2C3333] text-[#D6D5A8]
+    max-w-[2140px]
+    }
+    .text-stroke { -webkit-text-stroke-color: #D6D5A8 }
+    .text-stroke { -webkit-text-stroke-width: 0.5px }
+
+}
