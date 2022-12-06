@@ -21,8 +21,8 @@ module.exports = {
     },
     extend: {
       Animation: {
-        toLeft: 'toLeft 10s infinite',
-        toRight: 'toRight 10s infinite'
+        toLeft: 'toLeft 10s linear infinite',
+        toRight: 'toRight 10s linear infinite'
       },
       keyframes: {
         toLeft: {
