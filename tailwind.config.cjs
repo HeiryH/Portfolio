@@ -20,6 +20,20 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
+      Animation: {
+        toLeft: 'toLeft 10s infinite',
+        toRight: 'toRight 10s infinite'
+      },
+      keyframes: {
+        toLeft: {
+          '0%': { left: 1700 },
+          '100%': {left: -1700 },
+        },
+        toRight: {
+          '0%': { left: -1700 },
+          '100%': {left: 1700 },
+        },
+      },
       backgroundImage: {
          "concrete-texture" : "url('./assets/concrete-wall-texture.svg')"
       },

@@ -21,7 +21,7 @@ const about = () => {
         <p className="mx-2">Currently a full-time web developer at Boustead Brunei
         </p>
 
-        <img className="lg:w-[45em] w-[30em] max-w-[50em] lg:self-start self-center" src="./assets/car_vintage.svg" alt="" />
+        <img className="lg:w-[45em] w-[30em] max-w-[50em] lg:self-start md:self-start self-center" src="./assets/car_vintage.svg" alt="" />
 
       </div>
 

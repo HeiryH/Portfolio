@@ -10,14 +10,11 @@ import bgImg from '/assets/concrete-wall-texture.svg';
 function App() {
   return (
     <div className="">
-      <img className="h-[100%] fixed z-0 object-cover w-full mix-blend-multiply pointer-events-none" src={bgImg} alt="" />
-      <div className="relative">
-      <Header/>
-      <Home/>
-      <About/>
-      <Work/>
-      <Footer/>
-      </div>
+      <Header />
+      <Home />
+      <About />
+      <Work />
+      <Footer />
     </div>
   )
 }

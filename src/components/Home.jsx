@@ -1,4 +1,5 @@
 import React from 'react'
+import Marquee from 'react-fast-marquee'
 
 const home = () => {
   return (
@@ -15,12 +16,13 @@ const home = () => {
 
         <div className="">
 
-          <div className="relative lg:top-[10rem] top-[1rem] ">
+          <div className="relative lg:top-[10rem] top-[1rem]">
           <div className="absolute leading-[0.75]">CreativeCreative</div>
           <div className="absolute z-20 leading-[0.75] text-fill-transparent text-stroke">CreativeCreative</div>
           </div>
+          
 
-          <div className="relative lg:top-[20rem] top-[7rem] ">
+          <div className="relative lg:top-[20rem] top-[7rem]">
           <div className="absolute lg:right-0 leading-[0.75]">DeveloperDeveloper</div>
           <div className="absolute lg:right-0 z-20 leading-[0.75] text-fill-transparent text-stroke">DeveloperDeveloper</div>
           </div>

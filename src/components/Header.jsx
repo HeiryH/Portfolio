@@ -1,26 +1,20 @@
 import React from "react";
+import { useState } from "react";
+import Contact from "./Contact";
 
 function header() {
-  return(
+  const [ open, setOpen ] = useState(false);
+
+  return (
     <div>
-      <nav className="flex flex-row lg:mx-10 mx-2 py-10 justify-between sticky">
+      <nav className="flex flex-row lg:mx-10 px-4 my-10 justify-between sticky">
         <a href="/Home" className="font-abhaya font-extrabold lg:text-5xl text-4xl">
           Helmy Heiry
         </a>
-        <div 
-        className="
-        text-base
-        w-[16rem]
-        flex
-        flex-row 
-        lg:grow-[0.05] 
-        justify-between 
-        items-end
-        font-fahkwang">
-          <a href="/About">About</a>
-          <a href="/Work">Work</a>
-          <a href="/Contact">Contact</a>
-        </div>
+        <button className="grow-[0.03] lg:grow-[0.01]" onClick={ () => { setOpen(true);}}>
+        <img className="w-6" src="./assets/hamburger.svg" alt="" />
+        </button>
+        {open && <Contact close={setOpen}/> }
       </nav>
     </div>
   )

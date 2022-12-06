@@ -4,7 +4,7 @@
 
 @layer base {
     body{
-    @apply bg-[#2C3333] text-[#D6D5A8]
+    @apply bg-[#252b2b] text-[#D6D5A8]
     max-w-[2140px]
     }
     .text-stroke { -webkit-text-stroke-color: #D6D5A8 }
