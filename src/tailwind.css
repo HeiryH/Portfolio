@@ -8,6 +8,6 @@
     max-w-[2140px]
     }
     .text-stroke { -webkit-text-stroke-color: #D6D5A8 }
-    .text-stroke { -webkit-text-stroke-width: 0.5px }
+    .text-stroke { -webkit-text-stroke-width: 1px }
 
 }

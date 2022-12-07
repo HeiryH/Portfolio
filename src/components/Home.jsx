@@ -1,7 +1,67 @@
 import React from 'react'
-import Marquee from 'react-fast-marquee'
+import { motion } from "framer-motion"
 
 const home = () => {
+
+  const Creative = {
+    animate: {
+      x: [0, -2520],
+      transition: {
+        x: {
+          repeat: Infinity,
+          repeatType: "loop",
+          duration: 8,
+          ease: "linear",
+        },
+      },
+    },
+  }
+
+  const CreativeDelay = {
+    animate: {
+      x: [0, -2520],
+      transition: {
+        x: {
+          repeat: Infinity,
+          repeatType: "loop",
+          duration: 8,
+          ease: "linear",
+          delay: 3.7,
+        },
+      },
+    },
+  }
+
+  const Developer = {
+    animate: {
+      x: [-1020, 1650],
+      transition: {
+        x: {
+          repeat: Infinity,
+          repeatType: "loop",
+          duration: 8,
+          ease: "linear",
+        },
+      },
+    },
+  }
+
+  const DeveloperDelay = {
+    animate: {
+      x: [-1020, 1650],
+      transition: {
+        x: {
+          repeat: Infinity,
+          repeatType: "loop",
+          duration: 8,
+          ease: "linear",
+          delay: 3.7,
+
+        },
+      },
+    },
+  }
+
   return (
     <div>
       <div className="
@@ -17,17 +77,36 @@ const home = () => {
         <div className="">
 
           <div className="relative lg:top-[10rem] top-[1rem]">
-          <div className="absolute leading-[0.75]">CreativeCreative</div>
-          <div className="absolute z-20 leading-[0.75] text-fill-transparent text-stroke">CreativeCreative</div>
+
+            <motion.div variants={Creative} animate="animate" className="absolute right-[-850px] leading-[0.75]">Creative</motion.div>
+
+            <motion.div variants={Creative} animate="animate" className="absolute right-[-850px] z-[3] leading-[0.75] text-fill-transparent text-stroke">Creative</motion.div>
+
+            <motion.div variants={CreativeDelay} animate="animate" className="absolute right-[-850px] leading-[0.75]">Creative</motion.div>
+
+            <motion.div variants={CreativeDelay} animate="animate" className="absolute right-[-850px] z-[3] leading-[0.75] text-fill-transparent text-stroke">Creative</motion.div>
+
+            <motion.div variants={CreativeDelay} animate="animate" className="absolute right-[-850px] leading-[0.75]">Creative</motion.div>
+
+            <motion.div variants={CreativeDelay} animate="animate" className="absolute right-[-850px] z-[3] leading-[0.75] text-fill-transparent text-stroke">Creative</motion.div>
+
           </div>
-          
+
+          <img className="absolute lg:right-0 right-0 lg:top-[10rem] top-[14rem] lg:h-[3em] h-[3.5em] rounded-[2em] lg:mr-14 z-[2] " src="./assets/me.jpg" alt="" />
+
 
           <div className="relative lg:top-[20rem] top-[7rem]">
-          <div className="absolute lg:right-0 leading-[0.75]">DeveloperDeveloper</div>
-          <div className="absolute lg:right-0 z-20 leading-[0.75] text-fill-transparent text-stroke">DeveloperDeveloper</div>
+
+            <motion.div variants={Developer} animate="animate" className="absolute lg:left-[0px] leading-[0.75]">Developer</motion.div>
+
+            <motion.div variants={Developer} animate="animate" className="absolute lg:left-[0px] z-[3] leading-[0.75] text-fill-transparent text-stroke">Developer</motion.div>
+
+            <motion.div variants={DeveloperDelay} animate="animate" className="absolute lg:left-[0px] leading-[0.75]">Developer</motion.div>
+
+            <motion.div variants={DeveloperDelay} animate="animate" className="absolute lg:left-[0px] z-[3] leading-[0.75] text-fill-transparent text-stroke">Developer</motion.div>
+
           </div>
 
-          <img className="absolute lg:right-0 right-0 lg:top-[10rem] top-[14rem] z-10 lg:h-[3em] h-[3.5em] rounded-[2em] lg:mr-14" src="./assets/me.jpg" alt="" />
         </div>
       </div>
     </div>
