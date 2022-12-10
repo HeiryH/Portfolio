@@ -12,8 +12,8 @@ function header() {
   }
 
   return (
-    <div className=" sticky top-0 bg-[#2b3232db] z-[5] ">
-      <nav className="flex flex-row lg:mx-10 mx-4 lg:py-10 py-5 justify-between">
+    <div className=" sticky top-0 bg-[#3d56569f] z-[5] ">
+      <nav className="flex flex-row lg:mx-10 mx-4 lg:py-5 py-5 justify-between">
 
         <a href="/" className="font-abhaya font-extrabold lg:text-5xl text-4xl ">
           Helmy Heiry
@@ -24,7 +24,7 @@ function header() {
         </button>
 
         {open && (
-          <div className="fixed bg-[#2b3232db] top-0 right-[0]">
+          <div className="fixed bg-[#3d56569f] top-0 right-[0]">
           <div className="mt-[10rem] h-[100vh] w-fit mx-8 lg:mx-[3.7rem] flex flex-col items-end lg:justify-start font-fahkwang text-2xl [&>*]:mb-[5rem]">
             <p className="text-right">Wanna colaborate? Find me below!</p>
             <a href="https://telegram.me/HelmyHeiry"> Telegram </a>

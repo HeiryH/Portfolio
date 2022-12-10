@@ -32,7 +32,7 @@ const about = () => {
 
 
         <div>
-          <p className="font-abhaya text-5xl font-extrabold text-transparent lg:text-6xl text-stroke text-stroke lg:ml-20">Development</p>
+          <p className="font-abhaya text-5xl font-extrabold text-transparent lg:text-6xl text-stroke2 text-stroke lg:ml-20">Development</p>
 
           <div className="flex flex-row justify-around item-center lg:mx-20 lg:child:h-40 child:h-20">
             <img src="./assets/visual-studio.svg" alt="" /><img src="./assets/react-solid.svg" alt="" /><img src="./assets/node-js.svg" alt="" />
@@ -43,7 +43,7 @@ const about = () => {
 
         <div>
 
-          <p className="font-abhaya lg:text-6xl text-5xl font-extrabold text-transparent text-stroke text-stroke lg:ml-20 ">Design</p>
+          <p className="font-abhaya lg:text-6xl text-5xl font-extrabold text-transparent text-stroke2 text-stroke lg:ml-20 ">Design</p>
 
           <div className="flex flex-row flex-wrap justify-around item-center lg:mx-20 lg:child:h-40 child:h-20">
             <img src="./assets/adobe-after-effects.svg" alt="" />

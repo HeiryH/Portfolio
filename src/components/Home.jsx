@@ -66,15 +66,17 @@ const home = () => {
     <div>
       <div className="
       lg:h-[100vh]
+      md:
       h-[80vh]
       font-abhaya 
-      font-extrabold 
+      font-extrabold
       text-9xl
       lg:text-[14.5em]
       block
-      overflow-x-hidden">
+      overflow-x-hidden
+      ">
 
-        <div className="">
+        <div className="flex flex-col lg:mt-[0] mt-10">
 
           <div className="relative lg:top-[10rem] top-[1rem]">
 
@@ -86,24 +88,20 @@ const home = () => {
 
             <motion.div variants={CreativeDelay} animate="animate" className="absolute right-[-850px] z-[3] leading-[0.75] text-fill-transparent text-stroke">Creative</motion.div>
 
-            <motion.div variants={CreativeDelay} animate="animate" className="absolute right-[-850px] leading-[0.75]">Creative</motion.div>
-
-            <motion.div variants={CreativeDelay} animate="animate" className="absolute right-[-850px] z-[3] leading-[0.75] text-fill-transparent text-stroke">Creative</motion.div>
-
           </div>
 
-          <img className="absolute lg:right-0 right-0 lg:top-[10rem] top-[14rem] lg:h-[3em] h-[3.5em] rounded-[2em] lg:mr-14 z-[2] " src="./assets/me.jpg" alt="" />
+          <img className="self-end lg:w-[30rem] w-[22rem] mt-14 mr-10 rounded-[2em] z-[2] " src="./assets/me.jpg" alt="" />
 
 
-          <div className="relative lg:top-[20rem] top-[7rem]">
+          <div className="self-start relative lg:top-[-26rem] top-[-28rem]">
 
-            <motion.div variants={Developer} animate="animate" className="absolute lg:left-[0px] leading-[0.75]">Developer</motion.div>
+            <motion.div variants={Developer} animate="animate" className="absolute leading-[0.75]">Developer</motion.div>
 
-            <motion.div variants={Developer} animate="animate" className="absolute lg:left-[0px] z-[3] leading-[0.75] text-fill-transparent text-stroke">Developer</motion.div>
+            <motion.div variants={Developer} animate="animate" className="absolute z-[3] leading-[0.75] text-fill-transparent text-stroke">Developer</motion.div>
 
-            <motion.div variants={DeveloperDelay} animate="animate" className="absolute lg:left-[0px] leading-[0.75]">Developer</motion.div>
+            <motion.div variants={DeveloperDelay} animate="animate" className="absolute leading-[0.75]">Developer</motion.div>
 
-            <motion.div variants={DeveloperDelay} animate="animate" className="absolute lg:left-[0px] z-[3] leading-[0.75] text-fill-transparent text-stroke">Developer</motion.div>
+            <motion.div variants={DeveloperDelay} animate="animate" className="absolute z-[3] leading-[0.75] text-fill-transparent text-stroke">Developer</motion.div>
 
           </div>
 
