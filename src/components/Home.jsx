@@ -1,5 +1,5 @@
 import React from 'react'
-import { motion } from "framer-motion"
+import { motion as m } from "framer-motion"
 
 const home = () => {
 
@@ -61,11 +61,23 @@ const home = () => {
     },
   }
 
+  const ImageAnim = {
+    initial: {
+      opacity: 0,
+      x: "-600px",
+    },
+    animate: {
+      x: "0",
+      opacity: 1,
+      transition: {duration: 3.5, ease:"easeOut"},
+    }
+  }
+
   return (
     <div>
       <div className="
-      lg:h-[100vh]
-      md:
+      lg:h-[80vh]
+      md:h-[80vh]
       h-[80vh]
       font-abhaya 
       font-extrabold
@@ -79,28 +91,28 @@ const home = () => {
 
           <div className="relative lg:top-[10rem] top-[1rem]">
 
-            <motion.div variants={Creative} animate="animate" className="absolute left-[100vw] leading-[0.75]">Creative</motion.div>
+            <m.div variants={Creative} animate="animate" className="absolute left-[100vw] leading-[0.75]">Creative</m.div>
 
-            <motion.div variants={Creative} animate="animate" className="absolute left-[100vw] z-[3] leading-[0.75] text-fill-transparent text-stroke">Creative</motion.div>
+            <m.div variants={Creative} animate="animate" className="absolute left-[100vw] z-[3] leading-[0.75] text-fill-transparent text-stroke">Creative</m.div>
 
-            <motion.div variants={CreativeDelay} animate="animate" className="absolute left-[100vw] leading-[0.75]">Creative</motion.div>
+            <m.div variants={CreativeDelay} animate="animate" className="absolute left-[100vw] leading-[0.75]">Creative</m.div>
 
-            <motion.div variants={CreativeDelay} animate="animate" className="absolute left-[100vw] z-[3] leading-[0.75] text-fill-transparent text-stroke">Creative</motion.div>
+            <m.div variants={CreativeDelay} animate="animate" className="absolute left-[100vw] z-[3] leading-[0.75] text-fill-transparent text-stroke">Creative</m.div>
 
           </div>
 
-          <img className="self-end lg:w-[30rem] w-[22rem] mt-14 mr-10 rounded-[2em] z-[2] " src="./assets/me.jpg" alt="" />
+          <m.img variants={ImageAnim} initial="initial" animate="animate" className="self-end lg:w-[30rem] w-[22rem] mt-14 mr-10 rounded-[2em] z-[2] " src="./assets/me.jpg" alt="" />
 
 
           <div className="self-start relative lg:top-[-26rem] top-[-28rem]">
 
-            <motion.div variants={Developer} animate="animate" className="absolute right-0 leading-[0.75]">Developer</motion.div>
+            <m.div variants={Developer} animate="animate" className="absolute right-0 leading-[0.75]">Developer</m.div>
 
-            <motion.div variants={Developer} animate="animate" className="absolute right-0 z-[3] leading-[0.75] text-fill-transparent text-stroke">Developer</motion.div>
+            <m.div variants={Developer} animate="animate" className="absolute right-0 z-[3] leading-[0.75] text-fill-transparent text-stroke">Developer</m.div>
 
-            <motion.div variants={DeveloperDelay} animate="animate" className="absolute right-0 leading-[0.75]">Developer</motion.div>
+            <m.div variants={DeveloperDelay} animate="animate" className="absolute right-0 leading-[0.75]">Developer</m.div>
 
-            <motion.div variants={DeveloperDelay} animate="animate" className="absolute right-0 z-[3] leading-[0.75] text-fill-transparent text-stroke">Developer</motion.div>
+            <m.div variants={DeveloperDelay} animate="animate" className="absolute right-0 z-[3] leading-[0.75] text-fill-transparent text-stroke">Developer</m.div>
 
           </div>
 

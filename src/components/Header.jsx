@@ -13,9 +13,9 @@ function header() {
 
   return (
     <div className=" sticky top-0 bg-[#3d56569f] z-[5] ">
-      <nav className="flex flex-row lg:mx-10 mx-4 lg:py-5 py-5 justify-between">
+      <nav className="flex flex-row lg:mx-10 mx-4 lg:py-2 justify-between">
 
-        <a href="/" className="font-abhaya font-extrabold lg:text-5xl text-4xl ">
+        <a href="/" className="font-abhaya font-extrabold lg:text-3xl text-2xl ">
           Helmy<br/>Heiry
         </a>
 
