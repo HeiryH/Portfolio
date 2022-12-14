@@ -5,7 +5,7 @@ const home = () => {
 
   const Creative = {
     animate: {
-      x: [0, -2520],
+      x: [0, -2220],
       transition: {
         x: {
           repeat: Infinity,
@@ -19,14 +19,14 @@ const home = () => {
 
   const CreativeDelay = {
     animate: {
-      x: [0, -2520],
+      x: [0, -2220],
       transition: {
         x: {
           repeat: Infinity,
           repeatType: "loop",
           duration: 8,
           ease: "linear",
-          delay: 3.7,
+          delay: 4.2,
         },
       },
     },
@@ -34,7 +34,7 @@ const home = () => {
 
   const Developer = {
     animate: {
-      x: [-1020, 1650],
+      x: [0, 2370],
       transition: {
         x: {
           repeat: Infinity,
@@ -48,15 +48,14 @@ const home = () => {
 
   const DeveloperDelay = {
     animate: {
-      x: [-1020, 1650],
+      x: [0, 2370],
       transition: {
         x: {
           repeat: Infinity,
           repeatType: "loop",
           duration: 8,
           ease: "linear",
-          delay: 3.7,
-
+          delay: 4,
         },
       },
     },
@@ -80,13 +79,13 @@ const home = () => {
 
           <div className="relative lg:top-[10rem] top-[1rem]">
 
-            <motion.div variants={Creative} animate="animate" className="absolute right-[-850px] leading-[0.75]">Creative</motion.div>
+            <motion.div variants={Creative} animate="animate" className="absolute left-[100vw] leading-[0.75]">Creative</motion.div>
 
-            <motion.div variants={Creative} animate="animate" className="absolute right-[-850px] z-[3] leading-[0.75] text-fill-transparent text-stroke">Creative</motion.div>
+            <motion.div variants={Creative} animate="animate" className="absolute left-[100vw] z-[3] leading-[0.75] text-fill-transparent text-stroke">Creative</motion.div>
 
-            <motion.div variants={CreativeDelay} animate="animate" className="absolute right-[-850px] leading-[0.75]">Creative</motion.div>
+            <motion.div variants={CreativeDelay} animate="animate" className="absolute left-[100vw] leading-[0.75]">Creative</motion.div>
 
-            <motion.div variants={CreativeDelay} animate="animate" className="absolute right-[-850px] z-[3] leading-[0.75] text-fill-transparent text-stroke">Creative</motion.div>
+            <motion.div variants={CreativeDelay} animate="animate" className="absolute left-[100vw] z-[3] leading-[0.75] text-fill-transparent text-stroke">Creative</motion.div>
 
           </div>
 
@@ -95,13 +94,13 @@ const home = () => {
 
           <div className="self-start relative lg:top-[-26rem] top-[-28rem]">
 
-            <motion.div variants={Developer} animate="animate" className="absolute leading-[0.75]">Developer</motion.div>
+            <motion.div variants={Developer} animate="animate" className="absolute right-0 leading-[0.75]">Developer</motion.div>
 
-            <motion.div variants={Developer} animate="animate" className="absolute z-[3] leading-[0.75] text-fill-transparent text-stroke">Developer</motion.div>
+            <motion.div variants={Developer} animate="animate" className="absolute right-0 z-[3] leading-[0.75] text-fill-transparent text-stroke">Developer</motion.div>
 
-            <motion.div variants={DeveloperDelay} animate="animate" className="absolute leading-[0.75]">Developer</motion.div>
+            <motion.div variants={DeveloperDelay} animate="animate" className="absolute right-0 leading-[0.75]">Developer</motion.div>
 
-            <motion.div variants={DeveloperDelay} animate="animate" className="absolute z-[3] leading-[0.75] text-fill-transparent text-stroke">Developer</motion.div>
+            <motion.div variants={DeveloperDelay} animate="animate" className="absolute right-0 z-[3] leading-[0.75] text-fill-transparent text-stroke">Developer</motion.div>
 
           </div>
 
