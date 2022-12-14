@@ -7,7 +7,7 @@ const work = () => {
     <div>
       <div className="h-[100vh] flex flex-col justify-center break-words">
         {Works.map(project => (
-          <a className="lg:w-fit grow-[0.1] lg:grow-0" href={project.link}>
+          <a target="_blank" className="lg:w-fit grow-[0.1] lg:grow-0" href={project.link}>
           <WorkLinks  title={project.title}/>
           </a>
         ))}

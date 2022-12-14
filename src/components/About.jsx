@@ -1,4 +1,20 @@
 import React from 'react'
+import { motion as m } from "framer-motion"
+
+const title ={
+  initial: { 
+    opacity: 0,
+    y: "50%",
+    transition: {duration: 1},
+    },
+  animate: {
+    opacity: 1,
+    transition: {duration: 1, ease:"easeOut"},
+    y: "0%"
+  }
+
+
+}
 
 const about = () => {
   return (
@@ -6,6 +22,7 @@ const about = () => {
       <div className="
         font-fahkwang
         text-xl
+        font-medium
         h-[80vh]
         lg:h-[100vh]
         flex
@@ -26,8 +43,8 @@ const about = () => {
       </div>
 
       <div className="flex flex-col h-[80vh] lg:h-[100vh] lg:mx-20 mx-2 child:my-10">
-        <div>
-          <p className=" w-fit font-abhaya lg:text-7xl text-6xl font-extrabold">Tools I Use</p>
+        <div className="overflow-hidden">
+          <m.p className=" w-fit font-abhaya lg:text-7xl text-6xl font-extrabold" variants={title} initial="initial" animate="animate" >Tools I Use</m.p>
         </div>
 
 

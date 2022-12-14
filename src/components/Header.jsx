@@ -16,7 +16,7 @@ function header() {
       <nav className="flex flex-row lg:mx-10 mx-4 lg:py-5 py-5 justify-between">
 
         <a href="/" className="font-abhaya font-extrabold lg:text-5xl text-4xl ">
-          Helmy Heiry
+          Helmy<br/>Heiry
         </a>
 
         <button onClick={onClick} className="grow-[0.03] lg:grow-[0.01] z-[4]">
