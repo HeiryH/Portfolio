@@ -76,7 +76,7 @@ const home = () => {
   return (
     <div>
       <div className="
-      lg:h-[80vh]
+      lg:h-[100vh]
       md:h-[80vh]
       h-[80vh]
       font-abhaya 

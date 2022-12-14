@@ -33,7 +33,7 @@ const about = () => {
 
       </div>
 
-      <div className="flex flex-col h-[80vh] md:h-[60vh] lg:h-[80vh] lg:mx-20 mx-2 child:my-10">
+      <div className="flex flex-col h-[80vh] md:h-[60vh] lg:h-[100vh] lg:mx-20 mx-2 child:my-10">
           <m.p className=" w-fit font-abhaya lg:text-7xl text-6xl font-extrabold" variants={appear} initial="initial" whileInView="animate" viewport={{once:false, amont: 0.3}} >Tools I Use</m.p>
 
 

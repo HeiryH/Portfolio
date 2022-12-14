@@ -19,7 +19,7 @@ const appear ={
 const work = () => {
   return (
     <div>
-      <m.div initial="initial" whileInView="animate"viewport={{once:false, amont: 1}} transition={{staggerChildren: 0.4}} className="h-[100vh] md:h-[80vh] lg:h-[80vh] flex flex-col justify-center break-words">
+      <m.div initial="initial" whileInView="animate"viewport={{once:false, amont: 1}} transition={{staggerChildren: 0.4}} className="h-[100vh] md:h-[80vh] lg:h-[100vh] flex flex-col justify-center break-words">
         {Works.map(project => (
           <m.a variants={appear} target="_blank" className="grow-[0.1] lg:grow-0" href={project.link}>
           <WorkLinks  title={project.title}/>
