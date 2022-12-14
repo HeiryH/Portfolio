@@ -18,7 +18,7 @@ const about = () => {
   return (
     <div>
       <div className="
-        font-fahkwang text-xl lg:font-semibold font-medium h-[80vh] md:h-[80vh] lg:h-[80vh] flex flex-col overflow-x-hidden">
+        font-fahkwang text-xl lg:font-semibold font-medium h-[80vh] md:h-[80vh] lg:h-[100vh] flex flex-col overflow-x-hidden">
 
         <p className="lg:w-[25em] lg:self-end mb-[5em] md:ml-[15em] lg:mr-[3em] mx-2 text-right">
           Specializes in Web-services, development, illustration and animation.
