@@ -102,7 +102,7 @@ const home = () => {
 
           </div>
 
-          <m.img variants={ImageAnim} initial="initial" animate="animate" className="self-end lg:w-[30rem] w-[22rem] mt-14 mr-10 rounded-[2em] z-[2] " src="./assets/me.jpg" alt="" />
+          <m.img variants={ImageAnim} initial="initial" animate="animate" className="self-end lg:w-[30rem] w-[22rem] mt-14 mr-10 rounded-[2em] z-[2] overflow-hidden " src="./assets/me.jpg" alt="" />
 
 
           <div className="self-start relative lg:top-[-26rem] top-[-28rem]">
