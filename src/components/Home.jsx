@@ -5,12 +5,12 @@ const home = () => {
 
   const Creative = {
     animate: {
-      x: [0, -2220],
+      x: ['100vw', '-100vw'],
       transition: {
         x: {
           repeat: Infinity,
           repeatType: "loop",
-          duration: 8,
+          duration: 10,
           ease: "linear",
         },
       },
@@ -19,14 +19,14 @@ const home = () => {
 
   const CreativeDelay = {
     animate: {
-      x: [0, -2220],
+      x: ['100vw', '-100vw'],
       transition: {
         x: {
           repeat: Infinity,
           repeatType: "loop",
-          duration: 8,
+          duration: 10,
           ease: "linear",
-          delay: 4.2,
+          delay: 5,
         },
       },
     },
@@ -34,12 +34,12 @@ const home = () => {
 
   const Developer = {
     animate: {
-      x: [0, 2370],
+      x: ['-95vw', '100vw'],
       transition: {
         x: {
           repeat: Infinity,
           repeatType: "loop",
-          duration: 8,
+          duration: 10,
           ease: "linear",
         },
       },
@@ -48,14 +48,14 @@ const home = () => {
 
   const DeveloperDelay = {
     animate: {
-      x: [0, 2370],
+      x: ['-95vw', '100vw'],
       transition: {
         x: {
           repeat: Infinity,
           repeatType: "loop",
-          duration: 8,
+          duration: 10,
           ease: "linear",
-          delay: 4,
+          delay: 5,
         },
       },
     },
@@ -81,7 +81,8 @@ const home = () => {
       h-[80vh]
       font-abhaya 
       font-extrabold
-      text-9xl
+      text-[5.3rem]
+      md:text-[9rem]
       lg:text-[14.5em]
       block
       overflow-x-hidden
@@ -91,13 +92,13 @@ const home = () => {
 
           <div className="relative lg:top-[10rem] top-[1rem]">
 
-            <m.div variants={Creative} animate="animate" className="absolute left-[100vw] leading-[0.75]">Creative</m.div>
+            <m.div variants={Creative} animate="animate" className="absolute leading-[0.75]">Creative</m.div>
 
-            <m.div variants={Creative} animate="animate" className="absolute left-[100vw] z-[3] leading-[0.75] text-fill-transparent text-stroke">Creative</m.div>
+            <m.div variants={Creative} animate="animate" className="absolute z-[3] leading-[0.75] text-fill-transparent lg:text-stroke text-stroke2">Creative</m.div>
 
-            <m.div variants={CreativeDelay} animate="animate" className="absolute left-[100vw] leading-[0.75]">Creative</m.div>
+            <m.div variants={CreativeDelay} animate="animate" className="absolute leading-[0.75]">Creative</m.div>
 
-            <m.div variants={CreativeDelay} animate="animate" className="absolute left-[100vw] z-[3] leading-[0.75] text-fill-transparent text-stroke">Creative</m.div>
+            <m.div variants={CreativeDelay} animate="animate" className="absolute z-[3] leading-[0.75] text-fill-transparent lg:text-stroke text-stroke2">Creative</m.div>
 
           </div>
 
@@ -106,13 +107,13 @@ const home = () => {
 
           <div className="self-start relative lg:top-[-26rem] top-[-28rem]">
 
-            <m.div variants={Developer} animate="animate" className="absolute right-0 leading-[0.75]">Developer</m.div>
+            <m.div variants={Developer} animate="animate" className="absolute leading-[0.75]">Developer</m.div>
 
-            <m.div variants={Developer} animate="animate" className="absolute right-0 z-[3] leading-[0.75] text-fill-transparent text-stroke">Developer</m.div>
+            <m.div variants={Developer} animate="animate" className="absolute z-[3] leading-[0.75] text-fill-transparent lg:text-stroke text-stroke2">Developer</m.div>
 
-            <m.div variants={DeveloperDelay} animate="animate" className="absolute right-0 leading-[0.75]">Developer</m.div>
+            <m.div variants={DeveloperDelay} animate="animate" className="absolute leading-[0.75]">Developer</m.div>
 
-            <m.div variants={DeveloperDelay} animate="animate" className="absolute right-0 z-[3] leading-[0.75] text-fill-transparent text-stroke">Developer</m.div>
+            <m.div variants={DeveloperDelay} animate="animate" className="absolute z-[3] leading-[0.75] text-fill-transparent lg:text-stroke text-stroke2">Developer</m.div>
 
           </div>
 
