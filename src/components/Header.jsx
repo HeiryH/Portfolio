@@ -15,8 +15,8 @@ function header() {
     <div className=" sticky top-0 z-[5] ">
       <nav className="flex flex-row lg:mx-10 mx-4 lg:py-2 justify-between">
 
-        <a href="/" className="font-abhaya font-extrabold lg:text-3xl text-2xl ">
-          Helmy<br/>Heiry
+        <a href="/" className="font-bebasNeue font-extrabold lg:text-3xl text-2xl ">
+          HelmyHeiry
         </a>
 
         <button onClick={onClick} className="grow-[0.03] lg:grow-[0.01] z-[4]">

@@ -79,7 +79,7 @@ const home = () => {
       lg:h-[100vh]
       md:h-[80vh]
       h-[80vh]
-      font-abhaya 
+      font-bebasNeue 
       font-extrabold
       text-[5.3rem]
       md:text-[9rem]
