@@ -34,7 +34,7 @@ const home = () => {
 
   const Developer = {
     animate: {
-      x: ['-95vw', '100vw'],
+      x: ['-120vw', '100vw'],
       transition: {
         x: {
           repeat: Infinity,
@@ -48,7 +48,7 @@ const home = () => {
 
   const DeveloperDelay = {
     animate: {
-      x: ['-95vw', '100vw'],
+      x: ['-120vw', '100vw'],
       transition: {
         x: {
           repeat: Infinity,

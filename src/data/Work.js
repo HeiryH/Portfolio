@@ -7,7 +7,7 @@ export default [
     {
         title: 'Automagination',
         imgUrl: '',
-        link: 'https://dev-automaginationdraft.pantheonsite.io/',
+        link: 'https://dev-automagination.pantheonsite.io/',
     },
     {
         title: 'TitanConnect',

@@ -4,11 +4,11 @@
 
 @layer base {
     body{
-    @apply bg-[#3D5656] text-[#FED049]
+    @apply bg-[#282828] text-[#FFFFFF]
     max-w-[2140px]
     }
-    .text-stroke { -webkit-text-stroke-color: #FED049 }
-    .text-stroke2 { -webkit-text-stroke-color: #FED049 }
+    .text-stroke { -webkit-text-stroke-color: #FFFFFF }
+    .text-stroke2 { -webkit-text-stroke-color: #FFFFFF }
     .text-stroke { -webkit-text-stroke-width: 2px }
     .text-stroke2 { -webkit-text-stroke-width: 1px }
 }

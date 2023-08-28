@@ -38,8 +38,7 @@ module.exports = {
          "concrete-texture" : "url('./assets/concrete-wall-texture.svg')"
       },
       fontFamily: {
-          abhaya:['abhaya', 'serif'],
-          fahkwang:['fahkwang', 'sans-serif']
+          bebasNeue:['Bebas Neue', 'sans-serif']
       }
     },
   },
