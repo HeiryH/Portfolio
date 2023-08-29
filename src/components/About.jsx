@@ -17,21 +17,8 @@ const appear = {
 const about = () => {
   return (
     <div>
-      <div className="
-        font-fahkwang text-xl lg:font-semibold font-medium flex flex-row overflow-x-hidden">
 
-        <p className="lg:w-[25em] mb-[5em] md:ml-[15em] lg:mr-[3em] mx-2 text-right">
-          Hello, my name is Heiry. I'm a web app developer with a passion for all things creative and digital, 
-          with over 2 years of experience. Specializes in Web-services, development, illustration and animation.          
-        </p>
-
-        <p className="mx-2 w-[25em]">Full-stack developer living at the heart of Borneo, with a passion of
-          programming and developing web app.
-        </p>
-
-      </div>
-
-      <div className="flex flex-col h-[80vh] md:h-[60vh] lg:h-[100vh] lg:mx-20 mx-2 child:my-10">
+      <div className="flex flex-col lg:mx-20 mx-2 child:my-10">
         <m.p className=" w-fit font-bebasNeue lg:text-7xl text-6xl font-extrabold" variants={appear} initial="initial" whileInView="animate" viewport={{ once: false, amont: 0.3 }} >Tools I Use</m.p>
 
 

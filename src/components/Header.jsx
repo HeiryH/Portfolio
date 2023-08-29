@@ -25,7 +25,7 @@ function header() {
 
         {open && (
           <div className="fixed bg-[#282828af] top-0 right-[0]">
-          <div className="mt-[10rem] h-[100vh] w-fit mx-8 lg:mx-[3.7rem] flex flex-col items-end lg:justify-start font-fahkwang text-2xl [&>*]:mb-[5rem]">
+          <div className="mt-[10rem] h-[100vh] mx-8 lg:mx-[3.7rem] flex flex-col lg:justify-start text-2xl [&>*]:mb-[5rem]">
             <p className="text-right">Wanna colaborate? Find me below!</p>
             <a href="https://telegram.me/HelmyHeiry"> Telegram </a>
             <a href="mailto: HelmyHeiry1104@gmail.com">Send Email</a>
